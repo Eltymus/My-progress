@@ -1,0 +1,95 @@
+
+body{
+  background: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#blackbox{
+  border: solid rgba(0,0,0,0.5);
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.5);
+}
+
+header{
+
+  text-align: center;
+  color: #38e163;
+  font-size: 30px;
+
+}
+
+nav{
+  text-align: center;
+  font-size: 30px;
+}
+
+img{
+  width: 310px;
+  height: 150px;
+  margin-top: 50px;
+}
+
+section{
+  color: white;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+#selectorname{
+
+display: inline;
+font-weight: bold;
+font-size: 25px;
+line-height: 70px;
+}
+
+nav{
+  border : solid #38e163;
+  margin-left: 100px;
+  margin-right: 100px;
+
+  padding-bottom: 10px;
+
+  background-color: #38e163;
+}
+
+li {
+  list-style-type: "→";
+}
+
+#orangebox{
+  text-align: left;
+  width: 400px;
+  height: 25px;
+  border: solid orange;
+  background-color: orange;
+  margin-right: 200px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+#greenbox{
+  text-align: left;
+  width: 700px;
+  height: 25px;
+  border: solid green;
+  background-color: green;
+  margin-right: 200px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+#redbox{
+  text-align: left;
+  width: 100px;
+  height: 25px;
+  border: solid red;
+  background-color: red;
+  margin-right: 200px;
+  margin-left: 10px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
