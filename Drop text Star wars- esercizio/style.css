@@ -1,0 +1,85 @@
+body{
+    background-image: url(Background.jpg);
+    color: white !important;
+}    
+
+.intro{
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+}
+.intro2{
+    color: orange;
+    font-size: 25px;
+    text-align: center;
+}
+
+.bottomintro{
+    margin-bottom: 200px;
+}
+.topintro{
+    margin-top: 200px;
+}
+
+.D-3BO{
+    color: blue;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ufficiale{
+    color: lightgray;
+    background-color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.darthfener{
+    color: red;
+    background-color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ribelle{
+    color: lightcoral;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.soldato{
+    color: darkgray;
+    background-color: gray;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.capo-pilota{
+    color: yellow;
+    background-color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pilota{
+    color: orange;
+    background-color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.leila{
+    color: green;
+    text-shadow: text-shadow: 2px 0 white, -2px 0 white, 0 2px white, 0 -2px white,1px 1px white, -1px -1px white, 1px -1px white, -1px 1px white;;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ufficiale{
+    color: red;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
