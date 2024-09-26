@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sfondo{
+    background-image: url(foto/polpette.jpg);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+ul{
+    list-style-type: square;
+}
+
+li{
+    padding: 0.7%;
+}
+
+
+hr{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+/* body{
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url(Backgroundcute.jpg.webp);
+    background-size: cover;
+/* }
+#titolo{
+    border-radius: 10px rgba(218, 119,94,0.893);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /* COME AGGIUNGO COLORE AL BORDO 
+    background-color: white;  
+    position: relative;
+    padding-top: 20px;
+     chiedere come fare col percentiale l'attaccamento al top pagina 
+    top: -27px;
+    padding-bottom: 5px;
+    font-size: larger;
+    color: rgba(218, 119, 84, 0.893);
+    text-align: center;
+    font-size: larger;
+ }  
+    */
+/* 
+.listaingredienti{
+    background-color:rgba(218, 119, 84,1) ;
+    border-radius: 30px;
+    text-align: center;
+    padding-bottom: auto;
+    position: relative;
+    width: 50%;
+} */
+/* 
+.listingred{
+    color: black;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px;
+    padding-right: 10px;
+    position: absolute;
+} */
+/* 
+.listaingredienti img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 0;
+    bottom: 1;
+    height: auto;
+    border-radius: 30px;
+} */
+
