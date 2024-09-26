@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista spesa</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+   <h1>JavaScript: Funzioni</h1>
+   <h2>richiamare Funzioni</h2>
+
+   <!-- Questo sistema è vecchio e non sicuro -->
+    <!-- <button onclick="messaggio()">clicca per messaggio</button> -->
+
+    <!-- <button id="btn">clicca per il messaggio</button>
+
+    <form action="invia" >
+
+        <input type="text" name="nome" id="nome" placeholder="inserisci il tuo nome">
+        <input type="text" name="cognome" id="conome" placeholder="inserisci il tuo conome">
+        <input type="button" value="invia" id="btninvia">
+
+    </form>
+
+    <div id="demo"></div> -->
+
+    <h1>Scontrino della spesa</h1>
+
+    <!-- Compila i campi per farli apparire nella lista -->
+    <!-- creare 2 array uno per i prodotti e uno per i prezzi -->
+
+    <form action="aggiungi">
+
+        <input type="text" id="prodotto" placeholder="prodotto">
+        <input type="number" id="prezzo" placeholder="prezzo">
+
+    <br>
+
+        <input type="button" id="add" value="aggiungi alla lista" onclick="aggiungiProdotto()"> 
+
+    </form>
+
+    <p>lista della spesa : </p>
+    <ul id="listaSpesa">
+
+
+    </ul>
+</div>
+
+    <button onclick="mostraTotale()">A fine carrello rivela il totale</button>
+
+    <h3 id="totale"></h3>
+
+   <script src="./js/script.js"></script> 
+</body>
+</html>

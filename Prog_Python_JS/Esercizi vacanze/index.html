@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizi Vacanze</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <!-- esercizio 0 -->
+<div class="divisoreEsercizi">
+
+    <h2> Esercizio 0 </h2> 
+
+    <button onclick="benvenuto()">Premere per iniziare es 0</button>
+
+    <h1 id="benvenuto"></h1> 
+
+</div>
+
+    <!-- esercizio 1 -->
+<div class="divisoreEsercizi">
+    <h2>Esercizio 1</h2>
+    <button onclick="triangolo()">Esercizio 1</button>
+    <p>Premi f12 e accedi alla console dopo aver premuto il pulsante Esercizio 1.</p>
+</div>
+
+    <!-- esercizio 2 -->
+<div class="divisoreEsercizi">
+
+    <h2>Esercizio 2</h2>
+
+    <form action="submit" id="myForm">
+    <p>Insersci la tua età</p>
+
+    <input type="number" id="eta" name="eta" autocomplete="on">
+    <br>
+
+    <p>inserisci l'anno di riferimento che preferisci</p>
+    <input type="number" id="anno" name="anno" autocomplete="on">
+    <br>
+
+    <p></p>
+
+    <input type="submit" >
+
+    </form>
+
+    <p id="risultato"> </p>
+
+</div>
+
+    <!-- esercizio 3 -->
+<div class="divisoreEsercizi">
+
+    <h2>Esercizio 3</h2>
+
+    <p>Inserisci i due numeri da moltiplicare</p>
+
+    <form action="submit" id="MyForm1">
+
+    <p>Inserisci il primo numero</p>
+    <input type="number" id="moltiplicando" name="moltiplicando" autocomplete="on">
+
+    <p>inserisci il secondo numero</p>
+    <input type="number" id="moltiplicatore" name="moltiplicatore" autocomplete="on">
+    
+    <br>
+
+    <p></p>
+
+    <input type="submit" value="calcola">
+
+    </form>
+
+    <p id="prodot"> </p>
+
+</div>
+
+    <!-- esercizio 4 -->
+<div class="divisoreEsercizi">
+
+    <h2>Esercizio 4</h2>
+
+    <form action="submit" id="MyForm2">
+
+    <p>Inserisci il primo numero</p>
+    <input type="number" id="numero1" name="numero1" autocomplete="on">
+    
+    <p>inserisci il secondo numero</p>
+    <input type="number" id="numero2" name="numero2" autocomplete="on">
+
+    <br>
+
+    <p>Scegli che tipo di operazione vuoi fare : </p>
+
+    <input type="radio" id="Moltiplicazione" name="calcolo" value="*">
+        <label for="Moltiplicazione"> Moltiplica </label>
+        <br>
+
+    <input type="radio" id="Divisione" name="calcolo" value="/">
+        <label for="Divisione"> Dividi </label>
+        <br>
+
+
+    <p></p>
+
+    <input type="submit">
+
+    </form>
+
+    <p id="result"></p>
+
+</div>
+
+    <!-- esercizio 5 -->
+<div class="divisoreEsercizi">
+    <h2>Esercizio 5</h2>
+
+    <p>Premi f12 e scopri l'estensione del file dell'esercizio5 </p>
+
+    <button onclick="letturaEstensione()"> Premi qui </button>
+
+    <p></p>
+
+</div>
+
+    <!-- esercizio 6 -->
+<div class="divisoreEsercizi">
+
+    <h2>Esercizio 6</h2>
+
+    <p>Inserisci il tuo testo e aggiungi "Ja" a inizio parola dove non presente</p>
+
+    <input type="text" id="testo" name="testo" autocomplete="on">
+
+    <p></p>
+
+    <button onclick="testoja()"> Trasforma il tuo testo</button>
+    
+    <p id="ja"></p>
+
+</div>
+
+    <!-- esercizio 7 : NON FUNZIONANTE, funziona su OneCompiler -->
+<div class="divisoreEserciziProblematici">
+    <h2>Esercizio 7</h2>
+<!-- VERSIONE ORIGINALE CHE NON FUNZIONA NON PRENDENDO num1 E num2
+    <form action="submit" id="myForm3"></form>
+
+        <p>inserisci il primo numero</p>
+
+        <input type="number" id="num1" name="num1" autocomplete="on">
+
+        <p>inserisci il secondo numero</p>
+
+        <input type="number" id="num2" name="num2" autocomplete="on">
+
+        <br>
+
+        <p></p>
+
+        <input type="submit"/>
+
+    </form>
+
+    <p id="magg"></p> -->
+
+    <!-- VERSIONE CHAT GPT -->
+     <!-- non funziona ma almeno fa uscire NaN come console log, da correggere in classe -->
+
+    <form id="numeroForm">
+        <label for="numero1">Inserisci il primo numero:</label>
+        <input type="number" id="numero1" required><br><br>
+        
+        <label for="numero2">Inserisci il secondo numero:</label>
+        <input type="number" id="numero2" required><br><br>
+        
+        <button type="submit">Calcola</button>
+    </form>
+
+    <p id="risultato"></p>
+
+</div>
+
+    <!-- esercizio 8 -->
+<div class="divisoreEsercizi">
+    <h2>Esercizio 8</h2>
+
+    <form action="submit" id="myForm4">
+
+    <label for="parola">Scrivi la parola che vuoi venga invertita :</label>
+    <input type="text" id="parola" required><br><br>
+
+    <button type="button">Inverti</button>
+    
+    </form>
+
+    <p id="invertita"></p>
+
+</div>
+
+    <!-- esercizio 9  -->
+<div class="divisoreEsercizi">
+
+    <h2>Esercizio 9</h2>
+
+    <form action="submit" id="myForm5">
+
+    <label for="parola">Scrivi ciò che preferisci e renderò la prima lettera di ogni parola maiuscola :</label>
+    <input type="text" id="frase" required><br><br>
+    
+    <button type="submit">Maiscola</button>
+        
+    </form>
+    
+    <p id="upperCased"></p>
+
+</div>
+
+    <!-- esercizio 10 -->
+
+<div class="divisoreEsercizi">
+    <h2>Esercizio 10</h2>
+    <h3>Genera una stringa casuale</h3>
+    <form id="myForm6">
+        <label for="length">Lunghezza della stringa:</label>
+        <input type="number" id="length" name="length" min="1" required>
+        <button type="button" onclick="generateRandomString()">Genera</button>
+    </form>
+
+    <p id="output"></p>
+
+</div>
+
+    <!-- esercizio 11 -->
+
+<div class="divisoreEsercizi">
+
+    <h2> Esercizio 11 </h2> 
+
+    <button onclick="numMaggiore()">Premere per iniziare es 11</button>
+
+    <p id="maggiore"></p> 
+
+</div>
+
+    <!-- esercizio 12  -->
+
+<div class="divisoreEsercizi">
+  <h2>Esercizio 12</h2>
+  <form action="submit" id="myForm7">
+
+    <label for="text12">Inserisci la parola da invertire</label>
+    <input type="text" id="textinv" required><br><br>
+    
+    <button type="submit">Inverti</button>
+    
+  </form>
+
+  <p id="forinvertita"></p>
+
+</div>
+
+<!-- esercizio 13 -->
+<div class="divisoreEsercizi">
+
+    <h2>Esercizio 13</h2>
+
+    <button onclick="fizzBuzz()">Ciao mondo</button>
+
+    <p id="risultatoFizz"></p>
+
+</div>
+
+<!-- esercizio 14 -->
+<div class="divisoreEsercizi">
+
+    <h2>Esercizio 14</h2>
+
+    <p>dato l'array ["S","a","l","a","m","a","n","d","r","a"] vediamo in quanti modi riusciamo a unirli in una stringa unica : </p>
+
+    <p>utilizzando la funzione Join : </p>
+    <button onclick="joinSalamadra()" id="join"> join</button>
+    <p id="joinSalamadratext"></p>
+    
+    <p>utilizzando un ciclo for : </p>
+    <button onclick="forSalamadra()" id="for">for</button>
+    <p id="forSalamadratext"></p>
+
+</div>
+
+<!-- esercizio 15 -->
+<div class="divisoreEsercizi">
+
+    <h2>Esercizio 15</h2>
+
+    <p>dato l'array di numeri [1,2,3,4,5,6] premi il pulsante "Lancia un dado !" per prendere un valore casuale da esso.</p>
+
+    <button onclick="lanciadado()">Lancia un dado!</button>
+
+    <p id="risultatoDado"></p>
+
+</div>
+
+<!-- esercizio 16 -->
+
+<div class="divisoreEsercizi">
+
+    <h2>Esercizio 16</h2>
+
+    <p>Trova la parola all'interno del testo misterioso, inserisci la parola e vedi se corrisponde :</p>
+
+    <input type="text" id="guess" name="guess" required>
+
+    <button onclick="controllaParola()">Controlla</button>
+
+    <p id="corrispondenza"></p>
+
+</div>
+
+
+<script src="js/script.js">
+</script>
+
+</body>
+</html>

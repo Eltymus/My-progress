@@ -1,0 +1,19 @@
+.flex-container{
+    display: flex;
+    /* flex-direction: column; */
+    /* flex direction stabilisce l'asse principale */
+    /* flex-direction: row; */
+    /* wrap f aandare a capo */
+    /* flex-wrap: wrap; */
+    /* fa lo stesso lavoro dei 2 comandi prima ma in uno solo */
+    flex-flow: row wrap;
+
+    justify-content: space-evenly;
+
+}
+
+.box{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,15 @@
+.divisoreEsercizi{
+    border: 2px solid ;
+    margin: 5px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: antiquewhite;
+}
+
+.divisoreEserciziProblematici{
+    border: 2px solid ;
+    margin: 5px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(245, 253, 193);
+}

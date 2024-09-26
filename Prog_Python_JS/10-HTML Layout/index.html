@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Compila il seguente form</h1>
+<!-- il metodo post serve a mettere i dati in un altra pagina -->
+ <!-- in questo caso non funziona per colpa del plug in live server -->
+    <form action="submit" method="get" id="myform">
+
+        <input type="text" placeholder="Inserisci il nome" name="nome" id="nome" required> <br>
+        <input type="email" placeholder="Inserisci la tua email" name="email" id="email" required> <br>
+        <input type="tel" placeholder="inserisci il tuo numero di Telefono" name="Telefono" id="Telefono" required> <br>
+        <input type="password" placeholder="inserisci password" name="password" id="password"> <br>
+
+        <label for="eta"> Età : </label> <br>
+
+        <input type="number" name="eta" id="eta" required> <br>
+
+        <input type="radio" name="abbonamento" value="annuale"> Annuale <br>
+        <input type="radio" name="abbonamento" value="mensile"> Mensile <br>
+        <input type="radio" name="abbonamento" value="Settimanale"> Settimanale <br>
+
+        <input type="checkbox" name="Privacy" value="privacy"> Accetta la privacy policy <br>
+
+        <label for="nazionalita">Nazionalità : </label>
+        <select name="nazionalita" id="nazionalita">
+            <option value="" selected disabled> Nazionalità</option>
+            <option value="ita">Italiana</option>
+            <option value="eng">Inglese</option>
+            <option value="spa">Spagnola</option>
+            <option value="ger">Germania</option>
+        </select>
+
+        <br>
+
+        <label for="automobile"> Automobile </label>
+        <select name="automobile" id="automobile">
+            <optgroup label="auto-italiane">
+                <option value="fiat">Fiat</option>
+                <option value="alfa_romeo">Alfa Romeo</option>
+            </optgroup>
+            <optgroup label="auto-inglese" id="auto-inglese"> Auto inglesi </optgroup>
+                <option value="ford"> Ford</option>
+                <option value="bmw"> BMW</option>
+            </optgroup>
+        </select>
+
+        <br>
+
+        <label for="commento"> Commento : </label> <br>
+        <textarea name="commento" id="commento" maxlength="100"></textarea>
+
+        <fieldset>
+            <legend>Anagrafica</legend>
+            Nome <input type="text">
+            codice fiscale <input type="text">
+            Data di Nascita <input type="date">
+            Colore Preferito <input type="color">
+        </fieldset>
+
+        <input type="submit" value="Invia">
+        <input type="reset" value="reset">
+        <input type="button" value="manda" id="btn">
+        
+    </form>
+    
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
