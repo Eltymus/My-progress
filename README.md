@@ -6,4 +6,3 @@ Mi piacerebbe ottimizzarli se possibile
 
 Ora il mio prossimo passo è programmare un app autonomamente
 
-Ho già un idea e creerò un branch di questa repository a breve
